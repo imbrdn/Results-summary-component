@@ -1,21 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
 *{
     font-family: 'Hanken Grotesk', sans-serif;
-    max-height: 100vh;
-
 }
-.attribution { 
+.attribution {
+    display: none;
+    overflow: hidden;
     margin-top: 1rem;
     font-size: 11px;
     text-align: center; 
 }
-
 .attribution a { 
     color: hsl(228, 45%, 44%);
 }
+body{
+    height: 100vh;
+    display: flex;
+    display: ;
+    align-items: center;
+    justify-content: center;
+}
 .container{
-    margin: auto;
-    padding: auto;
+    margin: 0 auto;
+    padding: 0 auto;
     max-width: 750px;
     display: grid;
     position: relative;
@@ -124,7 +130,7 @@ button{
     outline: none;
     border: none;
     border-radius: 2rem;
-    padding: 1rem 5rem;
+    padding: 1rem 7rem;
     font-size: 18px;
     margin-top: 1rem;
     color: hsl(221, 100%, 96%);
